@@ -38,3 +38,50 @@
     transform: rotate(360deg);
   }
 }
+
+.addingImg1{
+  background-image: url(./assets/HD-wallpaper-spring-flower-frame-apple-blossom-blue-wooden-background-white-flowers-wooden-texture-floral-frame.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+.HeroImg{
+  background-image: url(./assets/HD-wallpaper-spring-flower-frame-apple-blossom-blue-wooden-background-white-flowers-wooden-texture-floral-frame.jpg) ;
+   background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+header{
+  text-align: center;
+  background-color:rgba(21, 79, 137, 0.561);
+  padding: 1rem;
+  
+}
+.header2{
+  font-size: 3rem;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-style: italic;
+  color: rgb(12, 45, 107);
+ 
+}
+.row1{
+  padding-bottom: 3rem;
+  text-align: center;
+ 
+
+}
+.button1{
+color: rgb(152, 152, 152);
+background-color: blue;
+width:15rem;
+height: 3rem;
+text-align: center;
+margin-left: 37rem;
+margin-Top: 20rem;
+
+}
+.input{
+  margin-left: 37rem;
+
+  margin-Top: 10rem;
+}

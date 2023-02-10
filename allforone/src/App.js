@@ -9,6 +9,12 @@ import HomeComponet from './component/HomeComponet';
 import SayHelloComponent from './component/SayHelloComponent';
 import GreaterThanorLessThan from './component/GreaterThanorLessThan'
 import ReverseItcomponent from './component/ReverseItcomponent'
+import AskingQuestionsCompnent from './component/AskingQuestionscompnent'
+import AddingNumbersComponent from './component/addingNumberscomponent';
+import MadLibcomponent from './component/MadLibcomponent';
+import OddorEvencomponent from './component/OddorEvencomponent';
+import RestaurantPickercomponent from './component/RestaurantPickercomponent';
+import StudentDirectorycomponent from './component/StudentDirectorycomponent';
 function App() {
   return (
 //     <div style={{ height: "100vh",
@@ -46,14 +52,19 @@ function App() {
 
 
 
-
    <BrowserRouter>
-     
+   
    <Routes>
     <Route path='/' element={<HomeComponet/>}>  </Route>
     <Route path='SayHello' element={<SayHelloComponent/>}>  </Route>
     <Route path='Greater' element={<GreaterThanorLessThan/>}>  </Route>
-    <Route path='ReverseIt' element={<ReverseItcomponent/>}>  </Route>
+    <Route path='ReverseIt' element={<ReverseItcomponent/>}>  </Route> 
+    <Route path='AskingQuestions' element={<AskingQuestionsCompnent/>}>  </Route>
+    <Route path='MadLib' element={<MadLibcomponent/>}>  </Route>
+    <Route path='OddorEven' element={<OddorEvencomponent/>}>  </Route>
+    <Route path='Add2Numbers' element={<AddingNumbersComponent/>}>  </Route>
+    <Route path='RestaurantPicker' element={<RestaurantPickercomponent/>}>  </Route>
+    <Route path='StudentDirectory' element={<StudentDirectorycomponent/>}>  </Route>
    </Routes>
    </BrowserRouter>
 
